@@ -1,0 +1,20 @@
+[package]
+name = "css-parser-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["mdmahikaishar <mahikaishar@gmail.com"]
+description = "A Rust crate for parsing CSS file. It supports reading CSS file in an event-based fashion."
+repository = "https://github.com/mdmahikaishar/css-parser-rs"
+keywords = ["web", "css", "parser", "parsing", "reader"]
+categories = ["parser", "parser-implementations"]
+license = "MIT"
+readme = "README.md"
+include = ["examples/**", "src/**", "README.md"]
+
+[lib]
+name = "css_parser_rs"
+path = "src/lib.rs"
+
+[[example]]
+name = "main"
+path = "examples/main.rs"
